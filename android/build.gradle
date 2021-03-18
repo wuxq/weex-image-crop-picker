@@ -25,8 +25,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly 'com.taobao.android:weex_sdk:0.18.0@aar'
-    compileOnly 'com.alibaba:fastjson:1.2.49'
+    //compileOnly 'com.taobao.android:weex_sdk:0.18.0@aar'
+    compileOnly 'org.apache.weex:sdk:0.28.0@aar'
+    compileOnly 'com.alibaba:fastjson:1.2.75'
     implementation 'com.github.yalantis:ucrop:2.2.1-native'
     implementation 'id.zelory:compressor:2.1.0'
     testImplementation 'junit:junit:4.12'

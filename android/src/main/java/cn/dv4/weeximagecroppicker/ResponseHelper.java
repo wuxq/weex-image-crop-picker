@@ -3,7 +3,7 @@ package cn.dv4.weeximagecroppicker;
 import android.support.annotation.NonNull;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.taobao.weex.bridge.JSCallback;
+import org.apache.weex.bridge.JSCallback;
 
 public class ResponseHelper {
 

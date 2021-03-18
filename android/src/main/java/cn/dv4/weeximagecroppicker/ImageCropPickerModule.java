@@ -22,9 +22,9 @@ import android.util.Log;
 import android.webkit.MimeTypeMap;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.taobao.weex.annotation.JSMethod;
-import com.taobao.weex.bridge.JSCallback;
-import com.taobao.weex.common.WXModule;
+import org.apache.weex.annotation.JSMethod;
+import org.apache.weex.bridge.JSCallback;
+import org.apache.weex.common.WXModule;
 import com.yalantis.ucrop.UCrop;
 import com.yalantis.ucrop.UCropActivity;
 
